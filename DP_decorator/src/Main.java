@@ -14,7 +14,7 @@ public class Main {
         System.out.println(napolitanaPizza.cost());
 
         System.out.println("------------------");
-        
+
         Pizza koreanPizza = new KoreanPizza();
         koreanPizza = new CheeseTopping(koreanPizza);
         koreanPizza = new PotatoTopping(koreanPizza);
