@@ -14,7 +14,7 @@ public class Main {
         System.out.println("");
 
         System.out.println("어댑터패턴 사용(1)----------------------------------------------------------------");
-        AirLine koreanAirLine02 = new AsianaAirLineAdapter(new AsianaAirLine("런던"));
+        AirLine koreanAirLine02 = new BritishAirLineAdapter(new BritishAirLine("런던"));
         testAirLineFly(koreanAirLine02);
         System.out.println("");
 
