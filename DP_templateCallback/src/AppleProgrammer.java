@@ -2,6 +2,7 @@ public class AppleProgrammer extends Programmer {
 
     public AppleProgrammer(){
         //setToolBehavior(new ToolApple());
+        //이렇게 사용하지 않고, 템플릿 콜백 패턴으로 구현한다.
     }
 
     @Override

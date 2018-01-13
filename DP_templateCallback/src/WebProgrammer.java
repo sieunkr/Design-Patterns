@@ -2,6 +2,7 @@ public class WebProgrammer extends Programmer {
 
     public WebProgrammer(){
         //setToolBehavior(new ToolIntellij());
+        //이렇게 사용하지 않고, 템플릿 콜백 패턴으로 구현한다.
     }
 
     @Override
